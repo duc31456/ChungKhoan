@@ -101,6 +101,7 @@ namespace ĐặtLệnhMuaBán
             this.mACPDataGridViewTextBoxColumn.HeaderText = "MACP";
             this.mACPDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.mACPDataGridViewTextBoxColumn.Name = "mACPDataGridViewTextBoxColumn";
+            this.mACPDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nGAYDATDataGridViewTextBoxColumn
             // 
@@ -108,6 +109,7 @@ namespace ĐặtLệnhMuaBán
             this.nGAYDATDataGridViewTextBoxColumn.HeaderText = "NGAYDAT";
             this.nGAYDATDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nGAYDATDataGridViewTextBoxColumn.Name = "nGAYDATDataGridViewTextBoxColumn";
+            this.nGAYDATDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // lOAIGDDataGridViewTextBoxColumn
             // 
@@ -115,6 +117,7 @@ namespace ĐặtLệnhMuaBán
             this.lOAIGDDataGridViewTextBoxColumn.HeaderText = "LOAIGD";
             this.lOAIGDDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.lOAIGDDataGridViewTextBoxColumn.Name = "lOAIGDDataGridViewTextBoxColumn";
+            this.lOAIGDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // lOAILENHDataGridViewTextBoxColumn
             // 
@@ -122,6 +125,7 @@ namespace ĐặtLệnhMuaBán
             this.lOAILENHDataGridViewTextBoxColumn.HeaderText = "LOAILENH";
             this.lOAILENHDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.lOAILENHDataGridViewTextBoxColumn.Name = "lOAILENHDataGridViewTextBoxColumn";
+            this.lOAILENHDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // sOLUONGDataGridViewTextBoxColumn
             // 
@@ -129,6 +133,7 @@ namespace ĐặtLệnhMuaBán
             this.sOLUONGDataGridViewTextBoxColumn.HeaderText = "SOLUONG";
             this.sOLUONGDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.sOLUONGDataGridViewTextBoxColumn.Name = "sOLUONGDataGridViewTextBoxColumn";
+            this.sOLUONGDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // gIADATDataGridViewTextBoxColumn
             // 
@@ -136,6 +141,7 @@ namespace ĐặtLệnhMuaBán
             this.gIADATDataGridViewTextBoxColumn.HeaderText = "GIADAT";
             this.gIADATDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.gIADATDataGridViewTextBoxColumn.Name = "gIADATDataGridViewTextBoxColumn";
+            this.gIADATDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // tRANGTHAILENHDataGridViewTextBoxColumn
             // 
@@ -143,6 +149,7 @@ namespace ĐặtLệnhMuaBán
             this.tRANGTHAILENHDataGridViewTextBoxColumn.HeaderText = "TRANGTHAILENH";
             this.tRANGTHAILENHDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.tRANGTHAILENHDataGridViewTextBoxColumn.Name = "tRANGTHAILENHDataGridViewTextBoxColumn";
+            this.tRANGTHAILENHDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // lENHDATBindingSource
             // 
@@ -289,7 +296,7 @@ namespace ĐặtLệnhMuaBán
             this.Controls.Add(this.cbgiaodich);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Đặt lệnh mua bán";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lENHDATBindingSource)).EndInit();
